@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="Resource-type" content="Document" />
+    <meta name="author" content="order by dedecms.com/" />
+    <title>公司新闻</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!-- <link rel="shortcut icon" href="/favicon.ico"/> -->
+    <link rel="stylesheet" href="../../skin/css/reset.css" />
+    <link rel="stylesheet" href="../../skin/css/iconfont.css" />
+    <link rel="stylesheet" href="../../skin/css/common.css" />
+    <link rel="stylesheet" href="../../skin/css/style.css" />
+    <style type="text/css">
+        @media(max-width: 360px) {
+            .inside-banner .banner-desc p {
+                font-size: 12px!important;
+            }
+        }
+        
+        ul.pagination {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
+        
+        ul.pagination li {
+            display: inline;
+        }
+        
+        ul.pagination li a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s;
+            border: 1px solid #ddd;
+            margin-left: 5px;
+            border-radius: 5px;
+        }
+        
+        ul.pagination li a.active {
+            color: #4CAF50;
+            border: 1px solid #4CAF50;
+        }
+        
+        ul.pagination li a:hover:not(.active) {
+            background-color: #ddd;
+        }
+        
+        div.page_right {
+            text-align: center;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="../skin/css/animate.css"/> -->
+    <link rel="stylesheet" href="/demo172/skin/css/animate.css" />
+</head>
+
+
+<!-- header -->
+<header class="fix">
+    <div class="header-in">
+        <div class="container">
+            <a href="#" title="">
+                <picture class="logo">
+                    <source srcset="../../images/logo@1x.png" media="(max-width: 768px)">
+                    <source srcset="../../images/logo@1x.png">
+                    <img src="../../images/logo@1x.png" alt="My default image"></picture>
+            </a>
+            <div class="m-close"></div>
+            <div class="header-r">
+                <div class="header-r-in">
+                    <nav class="nav-top">
+                        <ul>
+                            <li class=''><a href="../index.html">首页</a></li>
+
+                            <li date-switch='0' class=""><a data-hover="－" data-icon="＋" href="../about/server.html">关于实忻</a>
+                                <div class="top-sub-menu"> <a href="../about/server.html">公司简介</a> <a href="../about/qyyq.html">企业缘起</a> <a href="../about/qywh.html">公司文化</a> <a href="../hzhb.html">合作伙伴</a> </div>
+                            </li>
+
+                            <li date-switch='0' class=""><a data-hover="－" data-icon="＋" href="../service/check.html">服务产品</a>
+                                <div class="top-sub-menu"> <a href="../service/check.html">健康随身检</a> <a href="../service/inside.html">保健品(内服)</a> <a href="../service/out.html">保健品(外涂)</a> </div>
+                            </li>
+
+                            <li date-switch='0' class="cur"><a data-hover="－" data-icon="＋" href="./new.html">公司新闻</a>
+                                <div class="top-sub-menu"> <a href="./new.html">公司新闻</a> </div>
+                            </li>
+
+                            <li date-switch='0' class=""><a data-hover="－" data-icon="＋" href="../Information/jkzx.html">资讯信息</a>
+                                <div class="top-sub-menu"> <a href="../Information/jkzx.html">健康资讯</a> <a href="../Information/jkqa.html">健康Q&A</a> </div>
+                            </li>
+
+                            <li date-switch='0' class=""><a data-hover="－" data-icon="＋" href="../healthy/jkxdgts.html">健康行动馆</a>
+                                <div class="top-sub-menu"> <a href="../healthy/jkxdgts.html">健康行动馆特色</a> <a href="../healthy/jkglsbq.html">健康管理3部曲</a> </div>
+                            </li>
+
+                            <li date-switch='0' class=""><a data-hover="－" data-icon="＋" href="../contact/contact.html">联系我们</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+<article class="business">
+    <section class="inside-banner">
+        <div class="banner-img" style="background: url('../../images/17.png') no-repeat center/cover;"></div>
+        <div class="picture_one">
+            <img src="../../images/416-5.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="info container">
+        <div data-scroll-watch class="info_ft">
+            <h2>公司新闻</h2>
+            <p>COMPANY NEWS</p>
+        </div>
+
+        <div class="info-left ib-top" id="info-list-item">
+            <ul>
+
+            </ul>
+        </div>
+
+    </section>
+
+    <div class="page_right">
+        <ul class="pagination">
+
+        </ul>
+    </div>
+</article>
+
+<!-- 尾部 -->
+<footer>
+    <div class="part-1 clearfix">
+        <div class="footer-nav">
+            <div class="left-item0 item-common">
+                <div class="ic-box"><span>首页</span><a href="../index.html">首页</a></div>
+            </div>
+
+            <div class="left-item1 item-common">
+                <div class="ic-box"><span>关于实忻</span> <a href="../about/server.html">公司简介</a> <a href="../about/qyyq.html">企业缘起</a> <a href="../about/qywh.html">公司文化</a> <a href="../about/hzhb.html">合作伙伴</a> </div>
+            </div>
+
+            <div class="left-item2 item-common">
+                <div class="ic-box"><span>服务产品</span> <a href="../service/check.html">健康随身检</a> <a href="../service/inside.html">保健品(内服)</a> <a href="../service/out.html">保健品(外涂)</a> </div>
+            </div>
+
+            <div class="left-item3 item-common">
+                <div class="ic-box"><span>公司新闻</span> <a href="./new.html">公司新闻</a> </div>
+            </div>
+
+            <div class="left-item4 item-common">
+                <div class="ic-box"><span>资讯信息</span> <a href="../Information/jkzx.html">健康资讯</a> <a href="../Information/jkqa.html">健康Q&A</a> </div>
+            </div>
+
+            <div class="left-item5 item-common">
+                <div class="ic-box"><span>健康行动馆</span> <a href="../healthy/jkxdgts.html">健康行动馆特色</a> <a href="../healthy/jkglsbq.html">健康管理3部曲</a> </div>
+            </div>
+
+            <div class="left-item6 item-common">
+                <div class="ic-box"><span>联系我们</span> <a href="../contact/contact.html">联系我们</a> </div>
+            </div>
+
+        </div>
+        <div class="wechat">
+            <div class="f_contact">
+                <div class="others ib-middle">
+                    <p>地址:上海市长宁区延安西路728号10楼F座</p>
+                    <p>邮 编: 200050</p>
+                    <p>客服热线: 400 900 9221</p>
+                    <p>
+                        邮 箱:hi@xiinhealthtech.com
+                    </p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        <div class="copyright-box clearfix">
+            <span>版权所有 &copy;上海实忻生物信息技术有限公司  </span>
+            <br>
+            <a class="copyright_l" href="" target="_blank" rel="nofollow">沪ICP备2021000140号-1  </a>
+            <a class="copyright_r" href="../about/yhqy.html">用户权益</a>
+
+            <div class="foo-ewm">
+                <div class="ewm ib-top"> <img src="../../images/编组 5@1x.png" width="125">
+                    <p>APP下载</p>
+                </div>
+                <div class="ewm ib-top"><img src="../../images/Wechat百二健康@1x.png" width="125">
+                    <p>微信公众号</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<div class="picture_last">
+    <img src="../../images/i_5.jpg" alt="">
+</div>
+
+<body>
+    <!-- <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
+    <script type="text/javascript" src="../../skin/js/jquery.min.js"></script>
+    <script src="../../skin/js/jquery.easing.min.js"></script>
+    <script src="../../skin/js/scorllwatch.js"></script>
+    <script src="../../skin/js/classlist.min.js"></script>
+    <script src="../../skin/js/main.js"></script>
+    <!-- <script src="../../jquery.min.js"></script> -->
+    <script type="text/javascript">
+        $(function() {
+            if (ww <= 500) {
+                CH = parseInt((176 / 270) * $('.info-list .pro').width());
+                $('.info-list .pro img').height(CH);
+            }
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            var curPage = 1; //当前页码
+            var total, pageSize; //总记录数，每页显示数
+            getData(curPage);
+            $(".pagination").on('click', 'li a', function() {
+
+                var rel = $(this).attr("rel");
+
+                if (rel) {
+                    getData(rel);
+                }
+            });
+        });
+
+        function utc2beijing(utc_datetime) {
+            // 转为正常的时间格式 年-月-日 时:分:秒
+            let T_pos = utc_datetime.indexOf('T');
+            let Z_pos = utc_datetime.indexOf('Z');
+            let year_month_day = utc_datetime.substr(0, T_pos);
+            let hour_minute_second = utc_datetime.substr(T_pos + 1, Z_pos - T_pos - 1);
+            let new_datetime = year_month_day + " " + hour_minute_second; // 2017-03-31 08:02:06
+
+            // 处理成为时间戳
+            timestamp = new Date(Date.parse(new_datetime));
+            timestamp = timestamp.getTime();
+            timestamp = timestamp / 1000;
+
+            // 增加8个小时，北京时间比utc时间多八个时区
+            var timestamp = timestamp + 8 * 60 * 60;
+
+            // 时间戳转为时间
+            let beijing_datetime = new Date(parseInt(timestamp) * 1000).toLocaleString().replace(/年|月/g, "-").replace(/日/g, " ");
+            return beijing_datetime; // 2017-03-31 16:02:06
+        }
+
+        // 获取数据
+        function getData(page) {
+            $.ajax({
+                url: 'https://api.xiinhealthtech.com/api/web/news?cat=1',
+                type: 'get',
+                data: {
+                    'page': page
+                },
+                beforeSend: function() {
+
+                },
+                success: function(json) {
+                    let data = json.data;
+                    total = json.total; //总记录数
+                    pageSize = json.per_page; //每页显示条数
+                    curPage = json.current_page; //当前页
+                    totalPage = parseInt(total / pageSize) + 1;
+                    var ul = $('#info-list-item').find('*').remove();
+                    string = '';
+
+                    data.forEach((item, index) => {
+                        string += `
+
+                          <li data-scroll-watch class="info-list show_bottom">
+                          <div class="pro ib-middle img_scale">   
+                          <a href="../company_news/page/page1.html?id=${item.id}">
+
+
+                              <img src="${item.pic_url}" width="200px" height="auto">
+                          </a>'
+                          </div>'
+                          <div class="desc ib-middle">
+                              <a>
+                                  <h3>${item.title}</h3>
+                              </a>
+                              <p>${item.content.substring(0,12)}... 
+                                  <span>
+                                    <a href="../company_news/page/page1.html?id=${item.id}">[查看详情]</a>
+                                  </span>
+                              </p>
+                              <div class="pc">
+                                  <div class="tips">
+                                      <span>${item.author}</span>
+                                  </div>
+                                      <div class="date">${utc2beijing(item.updated_at)}</div>
+                              </div>
+                          </div>
+                              
+                          </li">
+
+                          `;
+
+                    })
+
+                    $('#info-list-item')[0].innerHTML = string
+
+
+                },
+                complete: function() { //生成分页条
+                    getPageBar();
+                },
+                error: function() {
+                    alert("数据加载失败");
+                }
+            });
+        }
+
+        //获取分页条
+        function getPageBar() {
+
+            $(".pagination").find('*').remove();
+
+            //页码大于最大页数
+            if (curPage > totalPage) curPage = totalPage;
+            //页码小于1
+            if (curPage < 1) curPage = 1;
+            pageStr = "<li><a>共" + total + "条</a></li><li><a class='active'>" + curPage + "/" + totalPage + "</a></li>";
+
+            //如果是第一页
+            if (curPage == 1) {
+                pageStr += "<li><a>«</a></li><li><a>上一页</a></li>";
+            } else {
+                pageStr += "<li><a href='javascript:void(0)' rel='1'>«</a></li><li><a href='javascript:void(0)' rel='" + (curPage - 1) + "'>上一页</a></li>";
+            }
+
+            //如果是最后页
+            if (curPage >= totalPage) {
+                pageStr += "<li><a>下一页</a></li><li><a<»</a></li>";
+            } else {
+                pageStr += "<li><a href='javascript:void(0)' rel='" + (parseInt(curPage) + 1) + "'>下一页</a></li><li><a href='javascript:void(0)' rel='" + totalPage + "'>»</a></li>";
+            }
+            $(".pagination").append(pageStr);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+﻿/*使用选择器指定字体*/
+@font-face {
+  font-family: 'Helvetica_Narrow';
+  src: url('../fonts/helvetica_narrow.eot');
+  src: url('../fonts/helvetica_narrow.eot') format('embedded-opentype'), url('../fonts/helvetica_narrow.woff') format('woff'), url('../fonts/helvetica_narrow.ttf') format('truetype'), url('../fonts/helvetica_narrow.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'impact';
+  src: url('../fonts/helvetica_narrow.eot');
+  src: url('../fonts/impact.eot') format('embedded-opentype'), url('../fonts/impact.woff') format('woff'), url('../fonts/impact.ttf') format('truetype'), url('../fonts/impact.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+  
+@font-face {font-family: "iconfont";
+  src: url('../fonts/iconfont.eot'); /* IE9*/
+  src: url('../fonts/iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/d70bcec8552d47ed9f4b7dc5e490e4de.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weixin1:after { content: "\e621"; }
+
+.icon-gengduo:after { content: "\e620"; }
+
+.icon-shang:after { content: "\e63c"; }
+
+.icon-sousuo:after { content: "\e612"; }
+
+.icon-guanbi:before { content: "\e616"; }
+
+.icon-huiyuan:before { content: "\e604"; }
+
+.icon-guanbi1:before { content: "\e631"; }
+
+.icon-yuyuefuwu-liuyan:before { content: "\e67b"; }
+
+.icon-share:before { content: "\e72e"; }
+
+.icon-tubiao:before { content: "\e629"; }
+
+.icon-zuo:before { content: "\e72f"; }
+
+.icon-xia:before { content: "\e730"; }
